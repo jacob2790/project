@@ -1,0 +1,65 @@
+.kt-error-v1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.kt-error-v1 .kt-error-v1__container .kt-error-v1__number {
+    font-size: 150px;
+    margin-left: 50px;
+    margin-top: 4rem;
+    font-weight: 700;
+    color: #595d6e;
+}
+
+.kt-error-v1 .kt-error-v1__container .kt-error-v1__text {
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 5rem;
+    font-weight: 700;
+    color: #595d6e;
+}
+
+.kt-error-v1 .kt-error-v1__container .kt-error-v1__desc {
+    font-size: 1.5rem;
+    margin-left: 50px;
+    color: #74788d;
+    font-weight: 400;
+}
+
+.kt-home-button {
+    color: #646c9a !important;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 10px;
+    border: 2px solid #646c9a !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.kt-home-button:hover {
+    color: #ffffff !important;
+    background: #646c9a;
+    border-color: #646c9a !important;
+    transition: all 0.4s ease 0s;
+}
+
+@media (max-width: 768px) {
+    .kt-error-v1 .kt-error-v1__container .kt-error-v1__number {
+        margin: 30px 0 0 3rem;
+        font-size: 8rem;
+    }
+
+    .kt-error-v1 .kt-error-v1__container .kt-error-v1__text {
+        margin: 50px 0 0 3rem;
+        font-size: 4rem;
+    }
+
+    .kt-error-v1 .kt-error-v1__container .kt-error-v1__desc {
+        margin-left: 3rem;
+        padding-right: 0.5rem;
+    }
+}

@@ -1,0 +1,1 @@
+// set the course_ids hidden field with the selected course id$('#select2_course').on('change', function () {    $('#course_ids').val($(this).val());});
